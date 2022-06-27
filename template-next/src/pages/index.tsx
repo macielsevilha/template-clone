@@ -1,11 +1,17 @@
-import Header from "../components/header";
+import styles from '../styles/sass/index.module.scss'
+import Menu from '../components/Menu'
 
-export default function Home() {
-  return (
-    <div>
-      <header>
-         <Header />
-      </header>
-    </div>
+
+export default function Home(props) {
+  return ( 
+
+      <div className={styles.layout}>
+        <header className={styles.header}>
+          <div className={styles.menu}>
+            <Menu />
+          </div>
+        </header>
+      </div>
+
   )
 }

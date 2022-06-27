@@ -1,18 +1,18 @@
 
+
 export default function Menu(props) {
     return (
-        <div className="menu">
-            <ul>
-                <li className={``}><a href="">homepage</a></li>
-                <li><a href="">about us</a></li>
-                <li><a href="">services</a></li>
-                <li><a href="">contact</a></li>
-                <li><a href="">external</a></li>
-
-                <button className={`
-             
-                `}>enviar</button>
+        <nav>
+            <ul className={`
+              flex justify-center my-2
+            
+            `}>
+                <li><a className="bg-slate-10" href="">Homepage</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">External</a></li>
             </ul>
-        </div>
+        </nav>
     )
 }

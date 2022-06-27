@@ -1,0 +1,16 @@
+.menu nav {
+    ul {
+        
+    }
+
+    li { padding: 10px; }
+ 
+    a {
+      text-decoration: none;
+      color: $secondary-color;
+      border: 1px solid $border-white;
+      padding: 10px 25px;
+    }
+
+    a:hover { }
+}
