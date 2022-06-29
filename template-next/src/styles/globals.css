@@ -1,18 +1,17 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+li, a{
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --cor01: #383E4C;
+  --cor02: #49505F;
+  --cor03: #F2F2F2;
+  --cor04: #FFFFFF;
+  --cor05: rgb(155, 155, 155);
 }
