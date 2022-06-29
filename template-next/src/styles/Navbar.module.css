@@ -1,0 +1,36 @@
+@media (max-width: 850px) {
+  
+     .menu {
+       width: 100%;
+     }
+     .menu div {
+         display: block;
+         padding: 0px 15px;
+         margin-right: 10px;
+         margin-top: 15px;
+        
+     }
+     .menu ul {
+         display: block;
+         position: absolute;
+         top: 80px;
+         width: 100%;
+         
+     }
+     .menu ul li {
+        background-color: #383E4C;
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+     }
+     .menu ul li:nth-child(1) {
+        background-color: #49505F;
+     }
+     .menu ul li:nth-child(1):hover {
+         background-color: #383E4C;
+     }
+     .menu ul li:hover {
+         background-color: #49505F;
+     }
+     
+ }

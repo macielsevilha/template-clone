@@ -1,18 +1,15 @@
+import { on } from "stream"
 import Link from "../../node_modules/next/link"
-import styles from '../styles/Home.module.css'
-interface NavbarProps {
-  
-}
+import styles from '../styles/Navbar.module.css'
+import Icons from "./Icons"
+import NavbarIcon from './Icons'
 
-export default function Navbar() {
+
+
+export default function Navbar(props) {
     return (
-        <nav className={styles.layout}>
-          <div className={`
-            bg-slate-700 fixed right-0 
-            hidden rounded
-          `}>
-             <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="50px"><path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"/></svg>
-          </div>
+        <nav className={styles.menu}>
+         <NavbarIcon  onClick />
           <ul className={`
             flex justify-center p-2
             text-white 

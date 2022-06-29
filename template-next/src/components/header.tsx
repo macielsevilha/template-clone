@@ -1,10 +1,17 @@
 import Navbar from "./Navbar"
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Header.module.css'
 
 export default function Header() {
     return (
-        <header className={styles.header}>
-            <Navbar />
-        </header>
+        <div className={styles.fundo + `
+         bg-fixed bg-top-right bg-no-repeat
+         bg-cover 
+
+        `} >
+           <header className={styles.header}>
+              <Navbar />
+          </header>
+        </div>
+     
     )
 }
