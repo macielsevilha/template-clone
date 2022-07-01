@@ -1,0 +1,19 @@
+
+.ground {
+  background-image: url('../../public/images/bg-1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+.ground h1 {
+  text-shadow: 0px 2px 2px black;
+}
+.ground p {
+  text-shadow: 0px 0px 2px black;
+}
+
+@media (max-width:850px) {
+  .ground {
+    height: 750px;
+  }
+}
