@@ -2,9 +2,10 @@ import Head from '../../node_modules/next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Image from '../../node_modules/react-bootstrap/esm/Image'
+import cashierTop from '../components/Cashiers'
+import Cashiers from '../components/Cashiers'
 
-
-export default function Home() {
+export default function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
@@ -22,32 +23,21 @@ export default function Home() {
             </div>
           </div>
         </div>
-
       </header>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel, iure quasi aperiam consectetur assumenda. Magni nesciunt cupiditate officiis molestiae labore. Ad eos quod facere vitae provident maiores perferendis explicabo?</p>
+      <main>
+        <div className={styles.cashiers}>
+           <Cashiers 
+           subTitle="Bootstrap v3.3.6"
+           text="Morbi sagittis justo a velit placerat ullamcorper quis quis
+            velit. Sed convallis at risus ullamcorper auctor. Praesent quis 
+            velit neque. Quisque semper porta nisi vitae suscipit. Duis 
+            lectus magna, ornare ac scelerisque."
+           />
+
+           
+        </div>
+      </main>
+      
     </div>
 
 
