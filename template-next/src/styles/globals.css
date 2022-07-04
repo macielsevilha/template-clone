@@ -4,5 +4,21 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Releway', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.custom-img {
+  background-image: url('../../public/images/bg-1.jpg');
+}
+.custom-img h1,p {
+  text-shadow: 1px 1px 1px black;
 }
