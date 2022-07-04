@@ -1,4 +1,5 @@
 import Head from "next/head"
+import AboutUs from "../components/About"
 import Hero from '../components/Hero'
 
 export default function Home() {
@@ -12,6 +13,13 @@ export default function Home() {
       <header>
          <Hero heading="COUQUER" message="Simple Tailwindcss Template next"></Hero>
       </header>
+      <main>
+        <article className="max-w-md md:flex mt-[60px]">
+           <AboutUs image="./images/1-1.jpg" heading="Tailwindcss" message="Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque." name="Button Green" color="green"></AboutUs>
+           <AboutUs image="./images/1-2.jpg" heading="Responsive Design" message="Conquer Template is provided by TemplateMo for free of charge. You can use this template for any kind of website. No credit link is required. All images by Unsplash. Thank you for visiting our website. Please come again!" name="See Details" color="cyan"></AboutUs>
+           <AboutUs image="./images/1-3.jpg" heading="Parallax Layout" message="Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque." name="Button Red" color="slate"></AboutUs>
+        </article>
+      </main>
     </div>
   )
 }
