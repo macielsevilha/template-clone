@@ -9,39 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate non deserunt obcaecati culpa, nihil reiciendis dignissimos odio, asperiores tempore, ipsum tenetur quasi. Est eaque exercitationem laborum, nemo animi numquam quia?</p>
-     
+      
     </div>
   )
 }
