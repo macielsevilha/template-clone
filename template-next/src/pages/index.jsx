@@ -1,6 +1,8 @@
 import Head from "next/head"
 import AboutUs from '../components/About'
 import Hero from '../components/Hero'
+import SideOne from '../components/SideOne'
+import SideTwo from '../components/SideTwo'
 
 export default function Home() {
   return (
@@ -11,13 +13,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-         <Hero heading="COUQUER" message="Simple Tailwindcss Template next"></Hero>
+        <Hero heading="COUQUER" message="Simple Tailwindcss Template next"></Hero>
       </header>
       <main className="w-full max-w-6xl m-auto p-10">
-        <article className="min-w-md md:flex justify-between">
-          <AboutUs image="images/1-1.jpg" heading="Tailwindcss" message="Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque." name="Button Green" color="green"></AboutUs>
-          <AboutUs image="images/1-2.jpg" heading="Responsive Design" message="Conquer Template is provided by TemplateMo for free of charge. You can use this template for any kind of website. No credit link is required. All images by Unsplash. Thank you for visiting our website. Please come again!" name="See Details" color="cyan"></AboutUs>     
-          <AboutUs image="images/1-3.jpg" heading="Parallax Layout" message="Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque." name="Button Red" color="slate"></AboutUs>
+        <article className="min-w-md md:flex md:text-start justify-between md:px-0 sm:px-20 text-center" style={{ color: 'red' }}>
+          <AboutUs image="images/1-1.jpg" heading="Tailwindcss" message="Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque." name="Button Green" color="#178A27"></AboutUs>
+          <AboutUs image="images/1-2.jpg" heading="Responsive Design" message="Conquer Template is provided by TemplateMo for free of charge. You can use this template for any kind of website. No credit link is required. All images by Unsplash. Thank you for visiting our website. Please come again!" name="See Details" color="#1686C1"></AboutUs>
+          <AboutUs image="images/1-3.jpg" heading="Parallax Layout" message="Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque." name="Button Red" color="#852406"></AboutUs>
+        </article>
+        {/* Asides */}
+        <article className="min-w-md md:flex md:text-start text-center pt-10">
+          <SideOne image="images/2-1.jpg" heading="Two Column Left Side" messageOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium." messageTwo="Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus." />
+          <SideTwo image="images/2-2.jpg" heading="Two Column Right Side" messageOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium.
+          " messageTwo="Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus." button="Read More" />
         </article>
       </main>
     </div>
