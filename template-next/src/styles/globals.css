@@ -22,3 +22,19 @@ a {
 .custom-img h1,p {
   
 }
+
+.services {
+  background-image: url('../../public/images/bg-2.jpg');
+  text-shadow: 1px 0px 0px rgb(59, 59, 57);
+}
+
+.active button {
+  display: block;
+  border: 1px solid rgb(179, 179, 179);
+  background-color: white;
+ 
+}
+.light button{
+  padding:0;
+  margin: 0;
+}

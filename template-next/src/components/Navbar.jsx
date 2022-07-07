@@ -72,7 +72,6 @@ const Navbar = () => {
                             <Link href='/external'>External</Link>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </div>

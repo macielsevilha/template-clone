@@ -3,6 +3,8 @@ import AboutUs from '../components/About'
 import Hero from '../components/Hero'
 import SideOne from '../components/SideOne'
 import SideTwo from '../components/SideTwo'
+import Service from '../components/Service'
+import Column from '../components/Column'
 
 export default function Home() {
   return (
@@ -15,17 +17,40 @@ export default function Home() {
       <header>
         <Hero heading="COUQUER" message="Simple Tailwindcss Template next"></Hero>
       </header>
-      <main className="w-full max-w-6xl m-auto p-10">
-        <article className="min-w-md md:flex md:text-start justify-between md:px-0 sm:px-20 text-center" style={{ color: 'red' }}>
-          <AboutUs image="images/1-1.jpg" heading="Tailwindcss" message="Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque." name="Button Green" color="#178A27"></AboutUs>
-          <AboutUs image="images/1-2.jpg" heading="Responsive Design" message="Conquer Template is provided by TemplateMo for free of charge. You can use this template for any kind of website. No credit link is required. All images by Unsplash. Thank you for visiting our website. Please come again!" name="See Details" color="#1686C1"></AboutUs>
-          <AboutUs image="images/1-3.jpg" heading="Parallax Layout" message="Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque." name="Button Red" color="#852406"></AboutUs>
-        </article>
-        {/* Asides */}
-        <article className="min-w-md md:flex md:text-start text-center pt-10">
-          <SideOne image="images/2-1.jpg" heading="Two Column Left Side" messageOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium." messageTwo="Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus." />
-          <SideTwo image="images/2-2.jpg" heading="Two Column Right Side" messageOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium.
+      <main >
+        <div className="w-full max-w-6xl m-auto p-10">
+          <article className="min-w-md md:flex md:text-start justify-between md:px-0 sm:px-20 text-center" style={{ color: 'red' }}>
+            <AboutUs image="images/1-1.jpg" heading="Tailwindcss" message="Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque." name="Button Green" color="#178A27"></AboutUs>
+            <AboutUs image="images/1-2.jpg" heading="Responsive Design" message="Conquer Template is provided by TemplateMo for free of charge. You can use this template for any kind of website. No credit link is required. All images by Unsplash. Thank you for visiting our website. Please come again!" name="See Details" color="#1686C1"></AboutUs>
+            <AboutUs image="images/1-3.jpg" heading="Parallax Layout" message="Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque." name="Button Red" color="#852406"></AboutUs>
+          </article>
+          {/* Asides */}
+          <article className="min-w-md md:flex md:text-start text-center pt-10">
+            <SideOne image="images/2-1.jpg" heading="Two Column Left Side" messageOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium." messageTwo="Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus." />
+            <SideTwo image="images/2-2.jpg" heading="Two Column Right Side" messageOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium.
           " messageTwo="Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus." button="Read More" />
+          </article>
+        </div>
+        <article className="services h-70 flex justify-center bg-no-repeat bg-cover bg-fixed bg-right-top">
+          <div className="py-[110px] w-full max-w-[1000px]">
+            <Service heading="Our Services" message="Nunc diam leo fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. Etiam a mi quis arcu varius condimentum." />
+          </div>
+        </article>
+        <article className="w-full max-w-6xl m-auto p-10">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 px-5 text-center md:text-start">
+          <div className="light">
+          <Column images="images/4-1.jpg" heading="Column One" message="Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in tincidunt purus pretium quis. Fusce posuere egestas enim eu viverra."></Column>
+          </div>
+            <div className="active">
+              <Column images="images/4-2.jpg" heading="Column Two" message="Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in tincidunt purus pretium quis." button="Read it"></Column>
+            </div>
+            <div className="light">
+            <Column images="images/4-3.jpg" heading="Column Three" message="Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in tincidunt purus pretium quis. Fusce posuere egestas enim eu viverra."></Column>
+            </div>
+            <div className="active">
+              <Column images="images/4-4.jpg" heading="Column Four" message="Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in tincidunt purus pretium quis." button="Details"></Column>
+            </div>
+          </div>
         </article>
       </main>
     </div>
