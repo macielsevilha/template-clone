@@ -5,6 +5,7 @@ import SideOne from '../components/SideOne'
 import SideTwo from '../components/SideTwo'
 import Service from '../components/Service'
 import Column from '../components/Column'
+import Big from '../components/BigColumn'
 
 export default function Home() {
   return (
@@ -50,6 +51,11 @@ export default function Home() {
             <div className="active">
               <Column images="images/4-4.jpg" heading="Column Four" message="Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in tincidunt purus pretium quis." button="Details"></Column>
             </div>
+          </div>
+        </article>
+        <article className="w-full max-w-6xl m-auto px-3">
+          <div className="active">
+            <Big image="images/4-5.jpg" heading="One Big Column" messageOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium. Vivamus dictum nisi ac fermentum interdum. Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus. Praesent volutpat cursus rhoncus. Aenean arcu diam, suscipit ac neque in, sollicitudin convallis orci." messageTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium. Vivamus dictum nisi ac fermentum interdum. Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus. Praesent volutpat cursus rhoncus. Aenean arcu diam, suscipit ac neque in, sollicitudin convallis orci." button="Read More" />
           </div>
         </article>
       </main>
