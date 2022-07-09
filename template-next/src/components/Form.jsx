@@ -26,5 +26,6 @@ export default function Form({ heading, message, button}) {
             </form>
           </div>
        </div>
+       
     )
 }

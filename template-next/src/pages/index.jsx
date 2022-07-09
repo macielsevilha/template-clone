@@ -67,6 +67,14 @@ export default function Home() {
         </div>
       </div>
       </main>
+      <footer className="text-center py-20">
+            <h6 className="text-3xl italic font-light text-slate-500 pb-4">Use it free</h6>
+            <p className="text-slate-500 pb-10">?Conquer is free Bootstrap template from templatemo website. <br/>No backlink is required to use this layout.?</p>
+            <div>
+              <hr />
+                <p className="text-slate-400 text-sm py-7">Copyright 2084 Your Company Name | Design: templatemo</p>
+            </div>
+          </footer>
     </div>
   )
 }
