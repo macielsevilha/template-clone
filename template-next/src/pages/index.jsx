@@ -6,6 +6,7 @@ import SideTwo from '../components/SideTwo'
 import Service from '../components/Service'
 import Column from '../components/Column'
 import Big from '../components/BigColumn'
+import Form from '../components/Form'
 
 export default function Home() {
   return (
@@ -58,6 +59,13 @@ export default function Home() {
             <Big image="images/4-5.jpg" heading="One Big Column" messageOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium. Vivamus dictum nisi ac fermentum interdum. Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus. Praesent volutpat cursus rhoncus. Aenean arcu diam, suscipit ac neque in, sollicitudin convallis orci." messageTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium. Vivamus dictum nisi ac fermentum interdum. Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus. Praesent volutpat cursus rhoncus. Aenean arcu diam, suscipit ac neque in, sollicitudin convallis orci." button="Read More" />
           </div>
         </article>
+      <div className="form-image bg-fixed">
+      <div className="flex justify-center">
+          <div className="max-w-full w-[700px]">
+            <Form heading="Contact form" message="Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. Etiam a mi quis arcu varius condimentum." button="Send" />
+          </div>
+        </div>
+      </div>
       </main>
     </div>
   )
